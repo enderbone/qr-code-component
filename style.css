@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Kumbh+Sans:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --background-color: hsl(212, 45%, 89%);
+    --color1: hsl(216, 15%, 48%);
+    --color2: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+body {
+    background-color: var(--background-color);
+    text-align: center;
+    font-family: 'Outfit';
+    font-size: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    background-color: white;
+    border-radius: 15px;
+    padding: 17.5px;
+
+    width: min(310px, 90%);
+}
+
+img {
+    width: 300px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: var(--color2);
+    width: 260px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+main > p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color1);
+    width: 260px;
+    margin: auto;
+    margin-bottom: 40px;
+}
