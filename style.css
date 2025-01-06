@@ -32,6 +32,7 @@ main {
     background-color: white;
     border-radius: 15px;
     padding: 17.5px;
+    margin: auto;
 
     width: min(310px, 90%);
 }
